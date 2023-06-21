@@ -12,12 +12,12 @@ const usePersistState = (key,defaultScore) => {
     });
 
 
-useEffect(()=> {
-    localStorage.setItem(key,score);
-},[key,score]);
+    useEffect(()=> {
+        localStorage.setItem(key,score);
+    },[key,score]);
 
-return [score,setScore];
 
+    return [score,setScore];
 }
 
 export default usePersistState;

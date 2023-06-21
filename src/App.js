@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import './App.css';
-import usePersistState from "./persistState";
+import usePersistState from "./usePersistState";
 
 function Counter() {
 
